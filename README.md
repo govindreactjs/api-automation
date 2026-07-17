@@ -1,5 +1,23 @@
-# api-automation
-Test the Api, Validate important parts of API. Add one negative test.
+# API Automation Assignment
+
+This project automates testing of the public API: https://jsonplaceholder.typicode.com/posts using React + JavaScript.
+
+## Setup Instructions
+1. Clone the repo
+2. Install dependencies:
+   npm install
+3. Run tests:
+   npm test
+
+## Project Structure
+- src/api/postsApi.js → API utility functions
+- src/__tests__/postsApi.test.js → Jest test suite
+- Includes one negative test for invalid post ID
+
+## Notes
+- Uses React, Axios, Jest, and React Testing Library
+- Structured for maintainability with separate API utilities and test files
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
